@@ -1,0 +1,10 @@
+Encoding for special characters in java
+UTF-8 handles all the special characters in written language.
+Cient encoding needs to be done at both client and server side .
+html page like 
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+in server side in web.xml.and for get http method setting has to be done in tomcat . 
+
+for more details see below link:
+https://dertompson.com/2007/01/29/encoding-filter-for-java-web-applications/
