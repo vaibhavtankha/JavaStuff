@@ -3,7 +3,7 @@
 - Collections.sort(employees,Comparator.comparing(e-> e.id));  
 
 - students.sort(Comparator.comparing(s -> s.name));  
-
+- students.sort(Comparator.comparingInt(Student::getId));
 
 - students.sort(Comparator.comparing(Student::getName));  
 public String getName() {
@@ -22,3 +22,4 @@ students.sort(
     Comparator.comparing(Student::getName,
         Comparator.nullsFirst(String::compareTo))
 );
+
